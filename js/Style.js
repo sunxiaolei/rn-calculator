@@ -18,6 +18,7 @@ var Style = StyleSheet.create({
     //键盘
     inputContainer: {
         flex: 4,
+        flexDirection: 'row',
         backgroundColor: '#3E606F'
     },
     inputButton: {
@@ -32,9 +33,9 @@ var Style = StyleSheet.create({
         fontWeight: 'bold',
         color: 'white'
     },
-    inputRow: {
+    inputColumn: {
         flex: 1,
-        flexDirection: 'row'
+        flexDirection: 'column'
     }
 })
 
